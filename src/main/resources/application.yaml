@@ -3,4 +3,21 @@ ktor:
         modules:
             - com.omaroid.ApplicationKt.module
     deployment:
+        # overridden by environment variables
+        host: "0.0.0.0"
         port: 8080
+        shutdown:
+            gracePeriod: 3000
+            timeout: 5000
+
+    # overridden by environment variables
+    database:
+        url: "OVERRIDE_WITH_DATABASE_URL_ENV_VAR"
+        driver: "OVERRIDE_WITH_DATABASE_DRIVER_ENV_VAR"
+        user: "OVERRIDE_WITH_DATABASE_USER_ENV_VAR"
+        password: "OVERRIDE_WITH_DATABASE_PASSWORD_ENV_VAR"
+
+    app:
+        environment: ${KTOR_ENV:development}
+        name: "Ktor API"
+        version: "0.0.1"

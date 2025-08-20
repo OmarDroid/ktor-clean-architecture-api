@@ -34,3 +34,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Database credentials - DO NOT COMMIT
+database.env
