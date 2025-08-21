@@ -35,6 +35,8 @@ distinct layers:
 - **Database Configuration**: PostgreSQL with connection pooling
 - **Health Services**: System monitoring and diagnostics
 - **External service integrations**
+  *Uses [Exposed](https://github.com/JetBrains/Exposed) - JetBrains' type-safe SQL library for
+  Kotlin.*
 
 ### **Presentation Layer** (API Interface)
 
@@ -118,14 +120,8 @@ ENVIRONMENT=development ./gradlew run
 # Run all tests
 ./gradlew test
 
-# Run with coverage
-./gradlew test jacocoTestReport
-
 # Build fat JAR
 ./gradlew buildFatJar
-
-# Generate API documentation
-./gradlew dokkaHtml
 ```
 
 ## Project Structure
