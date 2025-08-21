@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.ktor)
     alias(libs.plugins.kotlin.plugin.serialization)
 }
-
 group = "com.omaroid"
 version = "0.0.1"
 
