@@ -1,0 +1,179 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.omaroid.config////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/index.html
+$dokka.location:com.omaroid.config//loadConfig/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/load-config.html
+$dokka.location:com.omaroid.config/AppConfig///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-app-config/index.html
+$dokka.location:com.omaroid.config/AppConfig/AppConfig/#com.omaroid.config.ServerConfig#com.omaroid.config.DatabaseConfig/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-app-config/-app-config.html
+$dokka.location:com.omaroid.config/AppConfig/database/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-app-config/database.html
+$dokka.location:com.omaroid.config/AppConfig/server/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-app-config/server.html
+$dokka.location:com.omaroid.config/DatabaseConfig///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/index.html
+$dokka.location:com.omaroid.config/DatabaseConfig/DatabaseConfig/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/-database-config.html
+$dokka.location:com.omaroid.config/DatabaseConfig/driver/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/driver.html
+$dokka.location:com.omaroid.config/DatabaseConfig/password/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/password.html
+$dokka.location:com.omaroid.config/DatabaseConfig/url/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/url.html
+$dokka.location:com.omaroid.config/DatabaseConfig/user/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-database-config/user.html
+$dokka.location:com.omaroid.config/ServerConfig///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-server-config/index.html
+$dokka.location:com.omaroid.config/ServerConfig/ServerConfig/#kotlin.Int#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-server-config/-server-config.html
+$dokka.location:com.omaroid.config/ServerConfig/host/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-server-config/host.html
+$dokka.location:com.omaroid.config/ServerConfig/port/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.config/-server-config/port.html
+$dokka.location:com.omaroid.data.database.tables////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/index.html
+$dokka.location:com.omaroid.data.database.tables/UsersTable///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/-users-table/index.html
+$dokka.location:com.omaroid.data.database.tables/UsersTable/createdAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/-users-table/created-at.html
+$dokka.location:com.omaroid.data.database.tables/UsersTable/email/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/-users-table/email.html
+$dokka.location:com.omaroid.data.database.tables/UsersTable/name/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/-users-table/name.html
+$dokka.location:com.omaroid.data.database.tables/UsersTable/updatedAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.database.tables/-users-table/updated-at.html
+$dokka.location:com.omaroid.data.health////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.health/index.html
+$dokka.location:com.omaroid.data.health/DatabaseHealthService///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.health/-database-health-service/index.html
+$dokka.location:com.omaroid.data.health/DatabaseHealthService/DatabaseHealthService/#org.jetbrains.exposed.sql.Database/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.health/-database-health-service/-database-health-service.html
+$dokka.location:com.omaroid.data.health/DatabaseHealthService/checkHealth/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.health/-database-health-service/check-health.html
+$dokka.location:com.omaroid.data.repository////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/index.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/index.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/UserRepositoryImpl/#org.jetbrains.exposed.sql.Database/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/-user-repository-impl.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/create/#com.omaroid.domain.entities.Email#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/create.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/deleteById/#com.omaroid.domain.entities.UserId/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/delete-by-id.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/findAll/#kotlin.Int#kotlin.Int/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/find-all.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/findByEmail/#com.omaroid.domain.entities.Email/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/find-by-email.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/findById/#com.omaroid.domain.entities.UserId/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/find-by-id.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/getTotalCount/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/get-total-count.html
+$dokka.location:com.omaroid.data.repository/UserRepositoryImpl/update/#com.omaroid.domain.entities.User/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.data.repository/-user-repository-impl/update.html
+$dokka.location:com.omaroid.di////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.di/index.html
+$dokka.location:com.omaroid.di//createAppModule/#com.omaroid.config.AppConfig/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.di/create-app-module.html
+$dokka.location:com.omaroid.di//dataModule/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.di/data-module.html
+$dokka.location:com.omaroid.di//domainModule/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.di/domain-module.html
+$dokka.location:com.omaroid.di//presentationModule/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.di/presentation-module.html
+$dokka.location:com.omaroid.domain.entities////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/index.html
+$dokka.location:com.omaroid.domain.entities/Email///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-email/index.html
+$dokka.location:com.omaroid.domain.entities/Email/Email/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-email/-email.html
+$dokka.location:com.omaroid.domain.entities/Email/value/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-email/value.html
+$dokka.location:com.omaroid.domain.entities/User///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/index.html
+$dokka.location:com.omaroid.domain.entities/User/User/#com.omaroid.domain.entities.UserId#com.omaroid.domain.entities.Email#kotlin.String#kotlinx.datetime.Instant#kotlinx.datetime.Instant/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/-user.html
+$dokka.location:com.omaroid.domain.entities/User/createdAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/created-at.html
+$dokka.location:com.omaroid.domain.entities/User/email/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/email.html
+$dokka.location:com.omaroid.domain.entities/User/id/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/id.html
+$dokka.location:com.omaroid.domain.entities/User/name/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/name.html
+$dokka.location:com.omaroid.domain.entities/User/updatedAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user/updated-at.html
+$dokka.location:com.omaroid.domain.entities/UserId///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user-id/index.html
+$dokka.location:com.omaroid.domain.entities/UserId/UserId/#kotlin.Long/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user-id/-user-id.html
+$dokka.location:com.omaroid.domain.entities/UserId/value/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.entities/-user-id/value.html
+$dokka.location:com.omaroid.domain.errors////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/index.html
+$dokka.location:com.omaroid.domain.errors/AppException.BadRequestException///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-bad-request-exception/index.html
+$dokka.location:com.omaroid.domain.errors/AppException.BadRequestException/BadRequestException/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-bad-request-exception/-bad-request-exception.html
+$dokka.location:com.omaroid.domain.errors/AppException.ConflictException///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-conflict-exception/index.html
+$dokka.location:com.omaroid.domain.errors/AppException.ConflictException/ConflictException/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-conflict-exception/-conflict-exception.html
+$dokka.location:com.omaroid.domain.errors/AppException.NotFoundException///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-not-found-exception/index.html
+$dokka.location:com.omaroid.domain.errors/AppException.NotFoundException/NotFoundException/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/-not-found-exception/-not-found-exception.html
+$dokka.location:com.omaroid.domain.errors/AppException///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/index.html
+$dokka.location:com.omaroid.domain.errors/AppException/message/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/message.html
+$dokka.location:com.omaroid.domain.errors/AppException/statusCode/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.errors/-app-exception/status-code.html
+$dokka.location:com.omaroid.domain.repositories////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/index.html
+$dokka.location:com.omaroid.domain.repositories/HealthService///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-health-service/index.html
+$dokka.location:com.omaroid.domain.repositories/HealthService/checkHealth/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-health-service/check-health.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/index.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/create/#com.omaroid.domain.entities.Email#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/create.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/deleteById/#com.omaroid.domain.entities.UserId/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/delete-by-id.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/findAll/#kotlin.Int#kotlin.Int/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/find-all.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/findByEmail/#com.omaroid.domain.entities.Email/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/find-by-email.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/findById/#com.omaroid.domain.entities.UserId/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/find-by-id.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/getTotalCount/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/get-total-count.html
+$dokka.location:com.omaroid.domain.repositories/UserRepository/update/#com.omaroid.domain.entities.User/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.repositories/-user-repository/update.html
+$dokka.location:com.omaroid.domain.usecases////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/index.html
+$dokka.location:com.omaroid.domain.usecases/CreateUserUseCase///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-create-user-use-case/index.html
+$dokka.location:com.omaroid.domain.usecases/CreateUserUseCase/CreateUserUseCase/#com.omaroid.domain.repositories.UserRepository/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-create-user-use-case/-create-user-use-case.html
+$dokka.location:com.omaroid.domain.usecases/CreateUserUseCase/invoke/#kotlin.String#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-create-user-use-case/invoke.html
+$dokka.location:com.omaroid.domain.usecases/DeleteUserUseCase///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-delete-user-use-case/index.html
+$dokka.location:com.omaroid.domain.usecases/DeleteUserUseCase/DeleteUserUseCase/#com.omaroid.domain.repositories.UserRepository/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-delete-user-use-case/-delete-user-use-case.html
+$dokka.location:com.omaroid.domain.usecases/DeleteUserUseCase/invoke/#kotlin.Long/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-delete-user-use-case/invoke.html
+$dokka.location:com.omaroid.domain.usecases/GetAllUsersUseCase///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-all-users-use-case/index.html
+$dokka.location:com.omaroid.domain.usecases/GetAllUsersUseCase/GetAllUsersUseCase/#com.omaroid.domain.repositories.UserRepository/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-all-users-use-case/-get-all-users-use-case.html
+$dokka.location:com.omaroid.domain.usecases/GetAllUsersUseCase/invoke/#kotlin.Int#kotlin.Int/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-all-users-use-case/invoke.html
+$dokka.location:com.omaroid.domain.usecases/GetUserUseCase///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-user-use-case/index.html
+$dokka.location:com.omaroid.domain.usecases/GetUserUseCase/GetUserUseCase/#com.omaroid.domain.repositories.UserRepository/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-user-use-case/-get-user-use-case.html
+$dokka.location:com.omaroid.domain.usecases/GetUserUseCase/invoke/#kotlin.Long/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-get-user-use-case/invoke.html
+$dokka.location:com.omaroid.domain.usecases/UpdateUserUseCase///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-update-user-use-case/index.html
+$dokka.location:com.omaroid.domain.usecases/UpdateUserUseCase/UpdateUserUseCase/#com.omaroid.domain.repositories.UserRepository/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-update-user-use-case/-update-user-use-case.html
+$dokka.location:com.omaroid.domain.usecases/UpdateUserUseCase/invoke/#kotlin.Long#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.domain.usecases/-update-user-use-case/invoke.html
+$dokka.location:com.omaroid.presentation.controllers////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/index.html
+$dokka.location:com.omaroid.presentation.controllers/UserController///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/index.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/UserController/#com.omaroid.domain.usecases.CreateUserUseCase#com.omaroid.domain.usecases.GetUserUseCase#com.omaroid.domain.usecases.UpdateUserUseCase#com.omaroid.domain.usecases.DeleteUserUseCase#com.omaroid.domain.usecases.GetAllUsersUseCase/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/-user-controller.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/createUser/#io.ktor.server.application.ApplicationCall/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/create-user.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/deleteUser/#io.ktor.server.application.ApplicationCall/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/delete-user.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/getAllUsers/#io.ktor.server.application.ApplicationCall/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/get-all-users.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/getUserById/#io.ktor.server.application.ApplicationCall/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/get-user-by-id.html
+$dokka.location:com.omaroid.presentation.controllers/UserController/updateUser/#io.ktor.server.application.ApplicationCall/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.controllers/-user-controller/update-user.html
+$dokka.location:com.omaroid.presentation.dto////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/index.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/index.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse/ApiResponse/#kotlin.Boolean#TypeParam(bounds=[kotlin.Any?])?#com.omaroid.presentation.dto.ErrorDto?#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/-api-response.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse/data/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/data.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse/error/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/error.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse/success/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/success.html
+$dokka.location:com.omaroid.presentation.dto/ApiResponse/timestamp/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-api-response/timestamp.html
+$dokka.location:com.omaroid.presentation.dto/CreateUserRequestDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-create-user-request-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/CreateUserRequestDto/CreateUserRequestDto/#kotlin.String#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-create-user-request-dto/-create-user-request-dto.html
+$dokka.location:com.omaroid.presentation.dto/CreateUserRequestDto/email/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-create-user-request-dto/email.html
+$dokka.location:com.omaroid.presentation.dto/CreateUserRequestDto/name/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-create-user-request-dto/name.html
+$dokka.location:com.omaroid.presentation.dto/ErrorDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-error-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/ErrorDto/ErrorDto/#kotlin.String#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-error-dto/-error-dto.html
+$dokka.location:com.omaroid.presentation.dto/ErrorDto/code/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-error-dto/code.html
+$dokka.location:com.omaroid.presentation.dto/ErrorDto/details/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-error-dto/details.html
+$dokka.location:com.omaroid.presentation.dto/ErrorDto/message/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-error-dto/message.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/index.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/HealthStatus/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String?/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/-health-status.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/database/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/database.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/error/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/error.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/status/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/status.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/timestamp/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/timestamp.html
+$dokka.location:com.omaroid.presentation.dto/HealthStatus/version/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-health-status/version.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/PaginationDto/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/-pagination-dto.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/hasNext/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/has-next.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/hasPrevious/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/has-previous.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/page/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/page.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/size/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/size.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/total/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/total.html
+$dokka.location:com.omaroid.presentation.dto/PaginationDto/totalPages/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-pagination-dto/total-pages.html
+$dokka.location:com.omaroid.presentation.dto/UpdateUserRequestDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-update-user-request-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/UpdateUserRequestDto/UpdateUserRequestDto/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-update-user-request-dto/-update-user-request-dto.html
+$dokka.location:com.omaroid.presentation.dto/UpdateUserRequestDto/name/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-update-user-request-dto/name.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/UserResponseDto/#kotlin.Long#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/-user-response-dto.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/createdAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/created-at.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/email/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/email.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/id/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/id.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/name/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/name.html
+$dokka.location:com.omaroid.presentation.dto/UserResponseDto/updatedAt/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-user-response-dto/updated-at.html
+$dokka.location:com.omaroid.presentation.dto/UsersPageResponseDto///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-users-page-response-dto/index.html
+$dokka.location:com.omaroid.presentation.dto/UsersPageResponseDto/UsersPageResponseDto/#kotlin.collections.List[com.omaroid.presentation.dto.UserResponseDto]#com.omaroid.presentation.dto.PaginationDto/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-users-page-response-dto/-users-page-response-dto.html
+$dokka.location:com.omaroid.presentation.dto/UsersPageResponseDto/pagination/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-users-page-response-dto/pagination.html
+$dokka.location:com.omaroid.presentation.dto/UsersPageResponseDto/users/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.dto/-users-page-response-dto/users.html
+$dokka.location:com.omaroid.presentation.mappers////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.mappers/index.html
+$dokka.location:com.omaroid.presentation.mappers/UserMapper///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.mappers/-user-mapper/index.html
+$dokka.location:com.omaroid.presentation.mappers/UserMapper/createEmptyPage/#kotlin.Int#kotlin.Int/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.mappers/-user-mapper/create-empty-page.html
+$dokka.location:com.omaroid.presentation.mappers/UserMapper/toDto/com.omaroid.domain.entities.User#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.mappers/-user-mapper/to-dto.html
+$dokka.location:com.omaroid.presentation.mappers/UserMapper/toPageDto/kotlin.collections.List[com.omaroid.domain.entities.User]#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.mappers/-user-mapper/to-page-dto.html
+$dokka.location:com.omaroid.presentation.plugins////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.plugins/index.html
+$dokka.location:com.omaroid.presentation.plugins//configureStatusPages/io.ktor.server.application.Application#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.plugins/configure-status-pages.html
+$dokka.location:com.omaroid.presentation.plugins/ErrorResponse///PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.plugins/-error-response/index.html
+$dokka.location:com.omaroid.presentation.plugins/ErrorResponse/ErrorResponse/#kotlin.String/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.plugins/-error-response/-error-response.html
+$dokka.location:com.omaroid.presentation.plugins/ErrorResponse/message/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.plugins/-error-response/message.html
+$dokka.location:com.omaroid.presentation.routes////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.routes/index.html
+$dokka.location:com.omaroid.presentation.routes//configureHealthRoutes/io.ktor.server.application.Application#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.routes/configure-health-routes.html
+$dokka.location:com.omaroid.presentation.routes//configureRoutes/io.ktor.server.application.Application#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid.presentation.routes/configure-routes.html
+$dokka.location:com.omaroid////PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid/index.html
+$dokka.location:com.omaroid//main/#/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid/main.html
+$dokka.location:com.omaroid//module/io.ktor.server.application.Application#com.omaroid.config.AppConfig/PointingToDeclaration/-ktor -clean -architecture -a-p-i/com.omaroid/module.html
+com.omaroid
+com.omaroid.config
+com.omaroid.data.database.tables
+com.omaroid.data.health
+com.omaroid.data.repository
+com.omaroid.di
+com.omaroid.domain.entities
+com.omaroid.domain.errors
+com.omaroid.domain.repositories
+com.omaroid.domain.usecases
+com.omaroid.presentation.controllers
+com.omaroid.presentation.dto
+com.omaroid.presentation.mappers
+com.omaroid.presentation.plugins
+com.omaroid.presentation.routes
+
