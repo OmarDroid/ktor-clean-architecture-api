@@ -4,6 +4,7 @@ import com.omaroid.config.AppConfig
 import com.omaroid.config.loadConfig
 import com.omaroid.data.database.tables.UsersTable
 import com.omaroid.data.repository.UserRepositoryImpl
+import com.omaroid.di.createAppModule
 import com.omaroid.domain.repositories.UserRepository
 import com.omaroid.domain.usecases.CreateUserUseCase
 import com.omaroid.domain.usecases.DeleteUserUseCase
@@ -23,6 +24,8 @@ import kotlinx.serialization.json.Json
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.transactions.transaction
+import org.koin.ktor.plugin.Koin
+import org.koin.logger.slf4jLogger
 
 fun main(args: Array<String>) {
     // For local development, load .env into System Properties
@@ -42,29 +45,16 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module(appConfig: AppConfig) {
-
-    val database = Database.connect(
-        url = appConfig.database.url,
-        driver = appConfig.database.driver,
-        user = appConfig.database.user,
-        password = appConfig.database.password
-    )
-
-    transaction(database) {
-        SchemaUtils.create(UsersTable)
+    // Configure Koin dependency injection
+    install(Koin) {
+        slf4jLogger()
+        // Pass the config to Koin so it's available for injection throughout the app
+        modules(createAppModule(appConfig))
+        // This line is useful for allowing injection of the Application instance itself
+        koin.declare(this@module)
     }
 
-    val userRepository: UserRepository = UserRepositoryImpl(database)
-    val createUserUseCase = CreateUserUseCase(userRepository)
-    val getUserUseCase = GetUserUseCase(userRepository)
-    val updateUserUseCase = UpdateUserUseCase(userRepository)
-    val deleteUserUseCase = DeleteUserUseCase(userRepository)
-    val getAllUsersUseCase = GetAllUsersUseCase(userRepository)
-
-    val userController = UserController(
-        createUserUseCase, getUserUseCase, updateUserUseCase, deleteUserUseCase, getAllUsersUseCase
-    )
-
+    // Configure content negotiation for JSON serialization
     install(ContentNegotiation) {
         json(Json {
             prettyPrint = true
@@ -72,6 +62,8 @@ fun Application.module(appConfig: AppConfig) {
             ignoreUnknownKeys = true
         })
     }
+
+    // Configure application plugins and routing
     configureStatusPages()
-    configureRoutes(userController)
+    configureRoutes()
 }
