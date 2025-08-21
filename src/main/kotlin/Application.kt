@@ -13,6 +13,7 @@ import com.omaroid.domain.usecases.GetUserUseCase
 import com.omaroid.domain.usecases.UpdateUserUseCase
 import com.omaroid.presentation.controllers.UserController
 import com.omaroid.presentation.plugins.configureStatusPages
+import com.omaroid.presentation.routes.configureHealthRoutes
 import com.omaroid.presentation.routes.configureRoutes
 import io.github.cdimascio.dotenv.Dotenv
 import io.ktor.serialization.kotlinx.json.json
@@ -66,4 +67,5 @@ fun Application.module(appConfig: AppConfig) {
     // Configure application plugins and routing
     configureStatusPages()
     configureRoutes()
+    configureHealthRoutes()
 }

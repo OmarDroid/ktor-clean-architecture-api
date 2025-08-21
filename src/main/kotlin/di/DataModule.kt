@@ -2,7 +2,9 @@ package com.omaroid.di
 
 import com.omaroid.config.DatabaseConfig
 import com.omaroid.data.database.tables.UsersTable
+import com.omaroid.data.health.DatabaseHealthService
 import com.omaroid.data.repository.UserRepositoryImpl
+import com.omaroid.domain.repositories.HealthService
 import com.omaroid.domain.repositories.UserRepository
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
@@ -35,4 +37,5 @@ val dataModule = module {
     }
 
     single<UserRepository> { UserRepositoryImpl(get()) }
+    single<HealthService> { DatabaseHealthService(get()) }
 }
