@@ -1,0 +1,39 @@
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: ktor-postgres
+    restart: unless-stopped
+    env_file:
+      - ./database.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # Ktor Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ktor-api-demo
+    restart: unless-stopped
+    env_file:
+      - ./database.env
+    environment:
+      # Override only the database URL for Docker network
+      DATABASE_URL: YOUR_DATABASE_URL
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

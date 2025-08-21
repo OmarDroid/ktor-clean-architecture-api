@@ -37,3 +37,4 @@ out/
 
 # Database credentials - DO NOT COMMIT
 database.env
+.env

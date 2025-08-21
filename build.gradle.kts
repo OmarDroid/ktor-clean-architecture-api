@@ -54,3 +54,8 @@ dependencies {
     testImplementation(libs.h2.database)
     testImplementation(libs.ktor.client.content.negotiation)
 }
+ktor {
+    fatJar {
+        archiveFileName.set("${project.name}-${project.version}-all.jar")
+    }
+}

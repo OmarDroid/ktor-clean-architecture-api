@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+.gradle/
+**/build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+docs/
+
+# Local environment files
+database.env
+.env.local
+.env.development
+
+# Logs
+*.log
+logs/
+
+# Test results
+**/test-results/
+
+# Docker files (don't need in container)
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Temporary files
+tmp/
+temp/
