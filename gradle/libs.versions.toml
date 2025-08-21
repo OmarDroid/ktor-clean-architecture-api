@@ -13,6 +13,7 @@ hikari-version = "5.1.0"
 h2-version = "2.2.224"
 dotenv-version = "6.5.1"
 typesafe-config = "1.4.2"
+dokka = "1.9.20"
 
 [libraries]
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "ktor" }
@@ -63,3 +64,4 @@ h2-database = { module = "com.h2database:h2", version.ref = "h2-version" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }

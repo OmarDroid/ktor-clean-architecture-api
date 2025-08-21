@@ -1,5 +1,7 @@
 .gradle
 build/
+# Allow dokka documentation to be committed for GitHub Pages
+!build/dokka/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/

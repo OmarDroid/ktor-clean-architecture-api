@@ -11,8 +11,33 @@ import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.koin.dsl.module
 
+/**
+ * Dependency injection module for the data layer.
+ *
+ * Configures all data layer components including database connections,
+ * repository implementations, and health services. Handles database
+ * initialization and schema creation for development environments.
+ *
+ * Configured Dependencies:
+ * - Database: Exposed ORM database connection
+ * - UserRepository: Repository implementation for user data access
+ * - HealthService: Database health monitoring service
+ *
+ * @see DatabaseConfig
+ * @see UserRepositoryImpl
+ * @see DatabaseHealthService
+ */
 val dataModule = module {
 
+    /**
+     * Provides a configured database connection with schema initialization.
+     *
+     * Creates an Exposed database connection using the provided configuration
+     * and automatically creates tables in development mode. In production,
+     * this should be replaced with proper database migration tools.
+     *
+     * @throws IllegalStateException if database connection fails
+     */
     single<Database> {
         val dbConfig = get<DatabaseConfig>() // Get the config from Koin
 
@@ -36,6 +61,19 @@ val dataModule = module {
         }
     }
 
+    /**
+     * Provides the user repository implementation.
+     *
+     * Configures the UserRepositoryImpl with the database connection
+     * for data persistence operations.
+     */
     single<UserRepository> { UserRepositoryImpl(get()) }
+
+    /**
+     * Provides the database health monitoring service.
+     *
+     * Configures the DatabaseHealthService with the database connection
+     * for health check operations.
+     */
     single<HealthService> { DatabaseHealthService(get()) }
 }

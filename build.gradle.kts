@@ -1,7 +1,11 @@
+import org.gradle.kotlin.dsl.named
+import org.jetbrains.dokka.gradle.DokkaTask
+
 plugins {
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.ktor)
     alias(libs.plugins.kotlin.plugin.serialization)
+    alias(libs.plugins.dokka)
 }
 group = "com.omaroid"
 version = "0.0.1"
@@ -57,5 +61,14 @@ dependencies {
 ktor {
     fatJar {
         archiveFileName.set("${project.name}-${project.version}-all.jar")
+    }
+}
+
+tasks.named<DokkaTask>("dokkaHtml") {
+    outputDirectory.set(layout.buildDirectory.dir("dokka/html"))
+
+    // This block correctly associates the markdown file with the main module page.
+    dokkaSourceSets.named("main") {
+        includes.from("documentation/module.md")
     }
 }
