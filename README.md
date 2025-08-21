@@ -59,21 +59,6 @@ distinct layers:
 - **Input Validation**: Comprehensive request data validation
 - **Error Handling**: Structured error responses with appropriate HTTP status codes
 
-### **Production Ready**
-
-- **Docker Support**: Multi-stage builds with optimized container images
-- **Database Migration**: Automatic schema management
-- **Environment Configuration**: Flexible config management (HOCON + .env)
-- **Logging**: Structured logging with Logback
-- **Health Checks**: Kubernetes/Docker-ready health endpoints
-
-### **Development Experience**
-
-- **Comprehensive Testing**: Unit, integration, and repository tests
-- **API Documentation**: Auto-generated with Dokka
-- **Hot Reload**: Development server with automatic restarts
-- **Code Quality**: Kotlin coding conventions and best practices
-
 ## Tech Stack
 
 | Component            | Technology                                                                                                 | Version   |
