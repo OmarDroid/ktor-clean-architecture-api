@@ -11,9 +11,8 @@ import io.ktor.server.routing.route
 import io.ktor.server.routing.routing
 import org.koin.ktor.ext.inject
 
-fun Application.configureRoutes(
-    userController: UserController,
-) {
+fun Application.configureRoutes() {
+    val userController by inject<UserController>()
     routing {
 
         get("/") {
